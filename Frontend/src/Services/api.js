@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL;
+const BASE_URL = `${import.meta.env.VITE_API_URL}/api`;
 
 // Core fetch helper - handles all requests and errors in one place
 export const request = async (endpoint, options = {}) => {
