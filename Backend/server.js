@@ -9,7 +9,10 @@ const app = express();
 
 // ← CORS before routes
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: [
+    "http://localhost:5173",          // keep for local development
+    "https://vercel.com/sandequasions-projects/internet-technologies-final-project-nvh5/3ai7dMYrtW4FhycJdG2CMWsVcse6"  // add production URL
+  ],
   credentials: true
 }));
 
