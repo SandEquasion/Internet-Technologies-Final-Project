@@ -15,6 +15,7 @@ const Footer = () => {
 
 
 
+  
   const customerServiceLinks = [
     "Email: customerservice@vera.com",
     "Call Us: +1 (234) 567-890",

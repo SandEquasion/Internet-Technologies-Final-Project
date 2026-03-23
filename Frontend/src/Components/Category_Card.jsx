@@ -5,6 +5,7 @@
  * @param {function} [onClick]   - Click handler
  */
 
+
 const CategoryCard = ({
     image,
     category,

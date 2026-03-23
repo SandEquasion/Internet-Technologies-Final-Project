@@ -27,6 +27,7 @@ const LoginSignUpModal = ({
     if (onSignUpClick) onSignUpClick();
   };
  
+  
   return (
     <div className="inline-flex items-center justify-center bg-background rounded-full p-1 gap-2 shadow-inner px-3 py-2">
       <Button

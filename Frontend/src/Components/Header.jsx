@@ -43,6 +43,7 @@ const Header = () => {
       navigate("/login");
     }
   };
+  
   return (
     <>
       <div className="flex items-center justify-between w-full bg-background drop_shadow p-4">
