@@ -13,7 +13,7 @@ const Product_Gallery = ({ images = [], alt = "Product image" }) => {
   if (images.length === 0) return null;
 
   return (
-    <div className="flex flex-row gap-4 sm:w-[50vw] lg:w-[30vw] h-80 rounded-2xl overflow-hidden bg-background drop_shadow">
+    <div className="flex flex-row gap-4 w-full sm:w-[50vw] lg:w-[30vw] h-64 sm:h-80 lg:h-[50vh] rounded-2xl overflow-hidden bg-background drop_shadow">
 
 
       {/* Thumbnail strip - vertical column on the right */}
@@ -41,11 +41,11 @@ const Product_Gallery = ({ images = [], alt = "Product image" }) => {
       </div>
 
       {/* Large main image - takes up most of the space */}
-      <div className="flex-1 h-[50vh]">
+      <div className="flex-1 h-full">
         <img
           src={selectedImage}
           alt={alt}
-          className="w-full h-full object-cover transition-all duration-300 drop_shadow"
+          className="w-full h-full object-contain transition-all duration-300 drop_shadow"
         />
       </div>
 
