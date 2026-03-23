@@ -78,7 +78,7 @@ const Home = () => {
             </Button>
           </div>
 
-          <div className="w-full lg:w-1/2 h-48 md:h-64 lg:h-[75vh] flex-shrink-0">
+          <div className="w-full lg:w-1/2 h-40 md:h-56 lg:h-[75vh] flex-shrink-0">
             <img
               src="https://i.postimg.cc/D0JpTFhL/hero-img.png"
               alt="Woman holding Luminance serum"
