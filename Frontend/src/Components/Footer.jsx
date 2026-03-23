@@ -15,6 +15,7 @@ const Footer = () => {
 
 
 
+  
   const customerServiceLinks = [
     "Email: customerservice@vera.com",
     "Call Us: +1 (234) 567-890",
@@ -34,10 +35,10 @@ const Footer = () => {
 
   return (
     <footer className="w-full bg-background px-10 py-8 top_shadow">
-      <div className="flex flex-row justify-between gap-8">
+      <div className="flex flex-col md:flex-row justify-between gap-8">
 
         {/* ── Column 1: Newsletter signup ── */}
-        <div className="flex flex-col gap-4 w-[30%]">
+        <div className="flex flex-col gap-4 w-full md:w-[30%]">
 
           {/* Heading */}
           <div className="flex flex-col">
