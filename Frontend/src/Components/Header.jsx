@@ -43,6 +43,7 @@ const Header = () => {
       navigate("/login");
     }
   };
+  
   return (
     <>
       <div className="flex items-center justify-between w-full bg-background drop_shadow p-4">
@@ -57,8 +58,8 @@ const Header = () => {
                 font-display transition-all duration-150
                 hover:text-secondary_3 active:scale-95 inline-block
                 ${isActive(item.path)
-                  ? "text-secondary_1 text-h2 font-display"
-                  : "text-secondary_1 text-h3 font-display"
+                  ? "text-secondary_1 text-sm md:text-h2 font-display"
+                  : "text-secondary_1 text-xs md:text-h3 font-display"
                 }
               `}
             >
