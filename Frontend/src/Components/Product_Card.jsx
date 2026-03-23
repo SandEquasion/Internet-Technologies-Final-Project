@@ -29,7 +29,7 @@ const Product_Card = ({
       onClick={handleCardClick}
       className={`
         flex flex-col bg-background rounded-md overflow-hidden
-        w-48 cursor-pointer transition-all duration-150
+        w-full cursor-pointer transition-all duration-150
         border-2 drop_shadow
         ${isHovered ? "border-secondary_1 shadow-lg" : "border-transparent shadow-sm "}
         active:scale-95
