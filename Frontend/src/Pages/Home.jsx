@@ -38,6 +38,7 @@ const Home = () => {
   useEffect(() => {
     getAllProducts()
       .then(data => {
+        console.log("API response:", data);  // ← add this
         setProducts(data.products);  // ← controller returns { products }
         setLoading(false);
       })
