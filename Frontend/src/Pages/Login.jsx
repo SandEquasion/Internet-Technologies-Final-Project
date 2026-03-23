@@ -76,7 +76,7 @@ const Login = () => {
       {/* ── Right: Login form ── */}
       <div className="
         w-full lg:w-1/3
-        min-h-screen lg:h-screen
+        lg:min-h-screen lg:h-screen
         bg-background
         flex flex-col items-center justify-center
         gap-6
