@@ -48,7 +48,7 @@ const Home = () => {
       });
   }, []);  // ← empty array means this runs once when the page loads
 
-  
+
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden">
       <Header />
@@ -110,7 +110,7 @@ const Home = () => {
 
           {/* products grid - only shows when loaded */}
           {!loading && !error && (
-            <div className="grid place-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
+            <div className="grid place-items-center grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6">
               {products.map(product => (
                 <Product_Card
                   key={product._id}
