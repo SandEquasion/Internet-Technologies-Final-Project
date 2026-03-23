@@ -27,12 +27,13 @@ const LoginSignUpModal = ({
     if (onSignUpClick) onSignUpClick();
   };
  
+  
   return (
-    <div className="inline-flex items-center justify-center bg-background rounded-full p-1 gap-5 shadow-inner px-5 py-2">
+    <div className="inline-flex items-center justify-center bg-background rounded-full p-1 gap-2 shadow-inner px-3 py-2">
       <Button
         variant={active === "login" ? "filled" : "outlined"}
         onClick={handleLogin}
-        className="!rounded-full px-6 py-2 text-base border-0-transparent"
+        className="!rounded-full px-4 py-1.5 text-sm md:text-base border-0-transparent"
       >
         Log In
       </Button>
@@ -40,7 +41,7 @@ const LoginSignUpModal = ({
       <Button
         variant={active === "signup" ? "filled" : "outlined"}
         onClick={handleSignUp}
-        className="!rounded-full px-6 py-2 text-base border-0-transparent"
+        className="!rounded-full px-4 py-1.5 text-sm md:text-base border-0-transparent"
       >
         Sign Up
       </Button>
