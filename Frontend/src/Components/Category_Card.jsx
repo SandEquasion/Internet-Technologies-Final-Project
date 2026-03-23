@@ -14,7 +14,7 @@ const CategoryCard = ({
         <div className="flex flex-col 
             bg-background rounded-md 
             overflow-hidden shadow-md 
-            w-64 border-0 pt-4 border-transparent 
+            w-full border-0 pt-4 border-transparent 
             hover:border-secondary_1 hover:border-4 
             transition-all duration-150 ease-in-out 
             hover:scale-[1.03]
@@ -24,12 +24,13 @@ const CategoryCard = ({
                 <img src= {image} alt={category} className="w-full h-full object-contain" />
             </div>
             <div>
-                <h3 className="flex text-secondary_1 text-h2 justify-center font-display py-2">
+                <h3 className="flex text-secondary_1 text-sm md:text-h2 justify-center font-display py-2">
                     {category}
                 </h3>
             </div>
         </div>
     );
 };
+
 
 export default CategoryCard;
